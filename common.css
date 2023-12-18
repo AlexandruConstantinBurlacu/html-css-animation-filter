@@ -60,3 +60,15 @@
 
     opacity: 0;
 }
+
+.ex-5-square:hover {
+    transition: 4s;
+
+    scale: 3;
+}
+
+.ex-5-square:active {
+    transition: 4s;
+
+    scale: 0.2;
+}
