@@ -137,11 +137,40 @@
     }
 }
 
-.ex-12-button:hover , .ex-12-bottom-white , .ex-12-top-white {
-    animation: muovi 4s;
+.ex-12-button {
+    animation: muovi 4s ;
 }
 
 @keyframes muovi {
+    0% {
+        scale: 1;
+        transform: rotate(0);
+    }
+
+    25% {
+        scale: 0.5;
+    }
+
+    50% {
+        scale: 1;
+        transform: rotate(360deg);
+    }
+
+    75% {
+        scale: 0.5;
+    }
+
+    100% {
+        scale: 1;
+        transform: rotate(0);
+    }
+}
+
+.ex-13-button {
+    animation: ruota 4s infinite;
+}
+
+@keyframes ruota {
     0% {
         scale: 1;
         transform: rotate(0);
