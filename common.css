@@ -46,5 +46,17 @@
 .ex-2-square:active {
     transition: 5s;
 
-    width: 1000%;
+    width: 100%;
+}
+
+.ex-3-square:hover {
+    transition: 5s;
+
+    border-radius: 100%;
+}
+
+.ex-4-square:hover {
+    transition: 5s;
+
+    opacity: 0;
 }
