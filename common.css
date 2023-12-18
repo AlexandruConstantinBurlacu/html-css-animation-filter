@@ -42,3 +42,9 @@
 
     transition: 4s;
 }
+
+.ex-2-square:active {
+    transition: 5s;
+
+    width: 1000%;
+}
