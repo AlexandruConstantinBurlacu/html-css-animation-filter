@@ -82,3 +82,12 @@
 
     filter: grayscale(100%);
 }
+
+.ex-8-img:hover {
+    transition: 4s;
+
+    filter: contrast(50%);
+    filter: saturate(25%);
+
+    border-radius: 100px;
+}
